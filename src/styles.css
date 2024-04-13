@@ -177,15 +177,16 @@ p {
   margin: 2%;
   padding: 2%;
   border: 2px solid black;
-  font-size: 1.5em;
+  font-size: 1.4em;
   text-align: center;
 }
 
 img {
   width: 98%;
-  height: 80%;
+  height: 200px;
   border: 2px solid black;
   object-fit: cover;
+  object-position: top;
 }
 
 .lightbeige {
@@ -381,5 +382,19 @@ textarea {
 
   .submitmessage {
     height: 30vw;
+  }
+
+  .hero {
+    height: 76vh;
+  }
+
+  .heroheader {
+    height: 76vh;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .hero {
+    height: 86vh;
   }
 }

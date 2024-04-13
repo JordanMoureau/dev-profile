@@ -97,6 +97,7 @@ function Projects() {
             image={projects.image}
             git={projects.git}
             link={projects.link}
+            finished={projects.finished}
           />
         ))}
       </div>
@@ -104,7 +105,7 @@ function Projects() {
   );
 }
 
-function Project({ image, git, link }) {
+function Project({ image, git, link, finished }) {
   return (
     <div className="projects">
       <img src={image} alt={link} />
@@ -115,7 +116,7 @@ function Project({ image, git, link }) {
           rel="noreferrer"
           style={{ fontSize: "1em" }}
         >
-          <h2>Live site /</h2>
+          <h2>{finished ? "Live site /" : "Not"}</h2>
         </a>
       </button>
       <button>
@@ -125,7 +126,7 @@ function Project({ image, git, link }) {
           rel="noreferrer"
           style={{ fontSize: "1em" }}
         >
-          <h2>git hub</h2>
+          <h2>{finished ? "git hub" : "Ready Yet"}</h2>
         </a>
       </button>
     </div>
@@ -138,11 +139,13 @@ function Skills() {
       <div className="aboutme">
         <h2 className="subheading">Experience</h2>
         <p className="subpara">
-          With two years of banking 💰 experience my attention to detail is top
-          notch. I'm very organized and pre-nerdified 🤓. I have three and a
-          half years of college education, pursuing a graphic design degree.
+          With two years of banking 💰 experience my{" "}
+          <strong>attention to detail</strong> is top notch. I'm very organized
+          and come <strong>pre-nerdified</strong> 🤓. I have three and a half
+          years of college education, pursuing a <strong>graphic design</strong>{" "}
+          degree.
           <br /> <br />
-          Additionally I'm certified by{" "}
+          Additionally I've finished the majortiy of{" "}
           <a
             href="https://www.codecademy.com/career-journey/front-end-engineer"
             style={{
@@ -153,7 +156,7 @@ function Skills() {
           >
             Codcademy's Front-End Engineer career path
           </a>
-          ⭐️, I've also completed{" "}
+          ⭐️, I've also completed more than half of{" "}
           <a
             href="https://www.udemy.com/course/the-ultimate-react-course/learn/lecture/37350978?start=0#content"
             style={{
@@ -166,12 +169,15 @@ function Skills() {
           </a>{" "}
           ⭐️ as well as cultivating knowledge in various other places on the
           interwebs, following where gaps/curiosity takes me. Primarily my
-          learning has been through building though. I'm very much a hands on
-          learner, I can't learn if I'm not putting theory into practice.
-          Building and re-building has been the key to mastery for me.
+          learning has been through <strong>building</strong> though. I'm very
+          much a hands on learner, I can't learn if I'm not putting theory into
+          practice. Building and re-building has been the{" "}
+          <strong>key to mastery</strong> for me. I have always been an avid
+          student at the <strong>school of hard knocks.</strong>
           <br />
           <br />
-          Check out the rest of my courses and certificates on my{" "}
+          <strong> Check out</strong> the rest of my courses and certificates on
+          my{" "}
           <a
             href="https://www.linkedin.com/in/jordan-moureau-28b862255/"
             style={{

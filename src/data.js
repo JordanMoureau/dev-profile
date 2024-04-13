@@ -19,10 +19,10 @@ export const projects = [
   {
     lastOne: false,
     project: "Wildwood Inn",
-    link: "https://wildwood.netlify.app/",
-    git: "https://github.com/JordanMoureau/wildwood",
+    link: null,
+    git: null,
     image: "./wildwood.png",
-    finished: true,
+    finished: false,
   },
   {
     lastOne: false,
@@ -35,8 +35,8 @@ export const projects = [
   {
     lastOne: true,
     project: "Reau Creative Agency",
-    link: "https://wwww.jordanmoureau.com/reau",
-    git: "https://github.com/JordanMoureau/reaucreative",
+    link: null,
+    git: null,
     image: "./reaucreative.png",
     finished: false,
   },
