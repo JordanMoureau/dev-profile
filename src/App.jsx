@@ -53,10 +53,10 @@ function About() {
         <h2 className="subheading">About Me</h2>
         <p className="subpara">
           Hello! 👋🏻 I'm <strong>Jordan</strong>, an aspiring Front-End Engineer
-          out of eastern Washington where I live with my three kids and Tom
-          Hanks, our dog. My <strong>favorite food</strong> is pork buns and my{" "}
+          out of eastern Washington where I live with my three kids and our dog.
+          My <strong>favorite food</strong> is pork buns and my{" "}
           <strong>hobbies</strong> are reading, charcoal drawing and learning
-          new languages (currently french 🍟).
+          new languages (currently French 🍟 and Japanese 🍣).
           <br /> <br />
           Programming isn't something I thought I would be any good at, in fact
           I went to college for graphic design. While I was in school though I
