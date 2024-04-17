@@ -52,7 +52,7 @@ function About() {
       <div className="aboutme">
         <h2 className="subheading">About Me</h2>
         <p className="subpara">
-          Hello! 👋🏻 I'm <strong>Jordan</strong>, an aspiring Front-End Engineer
+          Hey! 👋🏻 I'm <strong>Jordan</strong>, an aspiring Front-End Engineer
           out of eastern Washington where I live with my three kids and our dog.
           My <strong>favorite food</strong> is pork buns and my{" "}
           <strong>hobbies</strong> are reading, charcoal drawing and learning
